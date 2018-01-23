@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="eureka-client_main" target="1.8" />
+      <module name="eureka-client_test" target="1.8" />
+      <module name="eureka-server_main" target="1.8" />
+      <module name="eureka-server_test" target="1.8" />
+      <module name="service-feign_main" target="1.8" />
+      <module name="service-feign_test" target="1.8" />
+      <module name="service-ribbon_main" target="1.8" />
+      <module name="service-ribbon_test" target="1.8" />
+      <module name="spring-cloud_main" target="1.5" />
+      <module name="spring-cloud_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
