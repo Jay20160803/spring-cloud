@@ -13,6 +13,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-ribbon:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-hystrix:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.5.Final" level="project" />
@@ -22,6 +23,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:1.5.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.4.RELEASE" level="project" />
@@ -55,6 +57,7 @@
     <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-core:1.5.12" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-metrics-event-stream:1.5.12" level="project" />
     <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-javanica:1.5.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
@@ -88,6 +91,9 @@
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars:jquery:2.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars:d3js:3.4.11" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-crypto:4.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.55" level="project" />
@@ -101,6 +107,8 @@
     <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.0.27.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.0.27.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-afterburner:2.8.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.freemarker:freemarker:2.3.26-incubating" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context-support:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.55" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.0.27.Final" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.0.27.Final" level="project" />

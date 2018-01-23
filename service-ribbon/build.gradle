@@ -29,4 +29,6 @@ dependencies {
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.4.2.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-ribbon', version: '1.4.2.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.4.2.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix-dashboard', version: '1.4.2.RELEASE'
+
 }

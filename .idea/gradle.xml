@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/eureka-server" />
             <option value="$PROJECT_DIR$/service-feign" />
             <option value="$PROJECT_DIR$/service-ribbon" />
+            <option value="$PROJECT_DIR$/service-zuul" />
           </set>
         </option>
       </GradleProjectSettings>
