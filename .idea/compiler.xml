@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="config-client_main" target="1.8" />
+      <module name="config-client_test" target="1.8" />
+      <module name="config-server_main" target="1.8" />
+      <module name="config-server_test" target="1.8" />
       <module name="eureka-client_main" target="1.8" />
       <module name="eureka-client_test" target="1.8" />
       <module name="eureka-server_main" target="1.8" />
