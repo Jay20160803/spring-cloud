@@ -1,5 +1,6 @@
 服务注册与发现：
-    eureka-service,eureka-clinet
+    eureka-service: 
+    eureka-clinet:任何服务都可以作为eureka-clinet,并注册到eureka-service中
     
 负载均衡：
     rest+ribbon/接口注解+feign
