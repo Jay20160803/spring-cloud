@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76b48bd-7340-47f2-9c36-0bdeeebd3ced" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_zuul_zuul_core_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_1_4_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_hystrix_dashboard_1_4_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_1_4_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_zuul_1_4_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_zuul_1_4_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_d3js_3_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_jquery_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/service-zuul/service-zuul_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-zuul/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/ZuulApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yaml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_core_1_4_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-client/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-feign/build/resources/main/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-ribbon/build/resources/main/application.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/build/classes/main/com/jk51/RibbonApplication.class" afterPath="$PROJECT_DIR$/service-ribbon/build/classes/main/com/jk51/RibbonApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/service-ribbon/service-ribbon_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-feign/build.gradle" afterPath="$PROJECT_DIR$/service-feign/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/build.gradle" afterPath="$PROJECT_DIR$/service-ribbon/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/RibbonApplication.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/RibbonApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -229,12 +192,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <first_editor relative-caret-position="480">
+                <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -252,7 +215,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZuulApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZuulApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/ZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
@@ -336,6 +299,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="gaojie &lt;472781184@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -1626,11 +1594,11 @@
         <option value="$PROJECT_DIR$/service-ribbon/build.gradle" />
         <option value="$PROJECT_DIR$/service-feign/build.gradle" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/RibbonApplication.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/service-zuul/build.gradle" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -2221,12 +2189,20 @@
       <option name="presentableId" value="Default" />
       <updated>1516678859282</updated>
       <workItem from="1516678862266" duration="5875000" />
-      <workItem from="1516690672392" duration="493000" />
+      <workItem from="1516690672392" duration="646000" />
     </task>
+    <task id="LOCAL-00001" summary="11">
+      <created>1516691200674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516691200674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6368000" />
+    <option name="totallyTimeSpent" value="6521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -2275,6 +2251,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2369,7 +2349,7 @@
         <state relative-caret-position="437">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2486,17 +2466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -2553,6 +2522,17 @@
             <element signature="imports" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
