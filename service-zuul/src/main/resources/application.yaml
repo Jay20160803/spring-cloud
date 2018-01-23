@@ -19,5 +19,9 @@ zuul:
       path: /api-b/**
       serviceId: service-feign
 
+#配置日志
+logging:
+  config : classpath:logback-boot.xml
+
 
 
