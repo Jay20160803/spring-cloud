@@ -10,6 +10,8 @@
       <module name="eureka-client_test" target="1.8" />
       <module name="eureka-server_main" target="1.8" />
       <module name="eureka-server_test" target="1.8" />
+      <module name="server-zipin_main" target="1.8" />
+      <module name="server-zipin_test" target="1.8" />
       <module name="service-feign_main" target="1.8" />
       <module name="service-feign_test" target="1.8" />
       <module name="service-ribbon_main" target="1.8" />

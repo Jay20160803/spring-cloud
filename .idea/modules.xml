@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" group="eureka-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" group="eureka-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-zipin/server-zipin.iml" filepath="$PROJECT_DIR$/.idea/modules/server-zipin/server-zipin.iml" group="server-zipin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-zipin/server-zipin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server-zipin/server-zipin_main.iml" group="server-zipin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-zipin/server-zipin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server-zipin/server-zipin_test.iml" group="server-zipin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign.iml" group="service-feign" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-feign/service-feign_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_main.iml" group="service-feign" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-feign/service-feign_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-feign/service-feign_test.iml" group="service-feign" />

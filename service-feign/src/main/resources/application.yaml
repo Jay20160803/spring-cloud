@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.175.129:8761/eureka/
 server:
   port: 8765
 spring:
@@ -11,4 +11,6 @@ spring:
 #feign集成了Hystrix,启用
 feign:
   hystrix:
+    enabled: true
+  okhttp:
     enabled: true

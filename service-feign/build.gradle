@@ -25,9 +25,10 @@ repositories {
 
 dependencies {
 
-    compile "org.springframework.boot:spring-boot-starter-web"
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.9.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.4.2.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.2.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix-dashboard', version: '1.4.2.RELEASE'
+    compile group: 'com.netflix.feign', name: 'feign-okhttp', version: '8.18.0'
 
 }

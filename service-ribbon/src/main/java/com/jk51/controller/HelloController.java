@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+
 
 /**
  * 版权所有(C) 2017 上海银路投资管理有限公司
@@ -23,15 +26,31 @@ public class HelloController {
     private HelloService helloService;
 
 
+    @RequestMapping(value = "hiAsync",method = RequestMethod.GET)
+    public String hiAsync(@RequestParam String name){
+
+        Future<String> future =  helloService.hiAsync(name);
+
+        while (!future.isDone()){
+            System.out.println("curentTime: "+System.currentTimeMillis());
+        }
+        try {
+            return future.get();
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        return "aa";
+    }
+
+
     @RequestMapping(value = "hi",method = RequestMethod.GET)
-    @HystrixCommand(fallbackMethod = "hiError")
     public String hi(@RequestParam String name){
 
         return helloService.hi(name);
     }
 
-    public String hiError(String name){
-
-        return "hi,"+name+" sorry,error!";
-    }
 }

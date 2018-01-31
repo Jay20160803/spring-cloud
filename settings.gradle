@@ -6,4 +6,5 @@ include 'service-feign'
 include 'service-zuul'
 include 'config-server'
 include 'config-client'
+include 'server-zipin'
 
