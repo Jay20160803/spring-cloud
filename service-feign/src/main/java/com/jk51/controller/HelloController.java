@@ -1,6 +1,7 @@
 package com.jk51.controller;
 
 import com.jk51.feignInterface.HelloService;
+import com.jk51.modle.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -24,6 +25,19 @@ public class HelloController {
 
     @RequestMapping(value = "hi",method = RequestMethod.GET)
     public String hi(@RequestParam String name){
+
         return helloService.sayHiFromClientOne(name);
+    }
+
+    @RequestMapping(value = "hi2",method = RequestMethod.GET)
+    public User hi2(@RequestParam String name){
+
+        return helloService.hi2(name,20);
+    }
+
+    @RequestMapping(value = "hi3",method = RequestMethod.GET)
+    public String hi3(@RequestParam String name){
+
+        return helloService.hi3(new User("aa",22));
     }
 }

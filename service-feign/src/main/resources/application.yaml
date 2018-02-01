@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.175.129:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 server:
   port: 8765
 spring:
@@ -13,4 +13,21 @@ feign:
   hystrix:
     enabled: true
   okhttp:
-    enabled: true
+    enabled: true  //使用okHttp作为Http请求API
+    #请求与响应压缩
+  compression:
+    request:
+      mime-types: text/xml,application/xml,application/json   #压缩的请求类型
+      min-request-size: 2048  #请求超过指定大小才压缩
+      enabled: true
+    response:
+      enabled: true
+
+
+#开启feign客户端的DEBUG日志
+logging:
+  level:
+    com:
+      jk51:
+        feignInterface:
+          HelloService: DEBUG

@@ -3,8 +3,10 @@
     eureka-clinet:任何服务都可以作为eureka-clinet,并注册到eureka-service中
     
 客户端负载均衡：
+
     rest+ribbon/接口注解+feign
     feign默认集成了ribbon，除了负载均衡，还
+    利用他对RestTemplate的请求拦截来实现对依赖的接口调用，而ResetTemplate已经实现了对HTTP请求的封装处理，形成了一套模板化的调用方式
     
 断路器：
 
@@ -78,7 +80,51 @@
                 coreSize: 设置执行命令线程池的核心线程数，该值也是命令执行的最大并发量，默认值为10
                 maxQueueSize: 设置线程
          Hystrix 仪表盘：
+
+声明式服务调用：Spring Cloud Feign
                 
+     基于Netfix实现，整合了Spring Cloud Ribbon与Spring Cloud Hystrix,除了提供了两者的功能之外，它还提供了一种申明式的Web服务客户端定义方式
+     
+     参数绑定：
+        支持Spring MVC 常用的参数绑定方式，具体看service-feign代码
+     继承特性：
+        没什么使用价值，添加复杂度
+     Ribbon配置：
+        全局配置：
+            直接使用ribbon.<key>=<value>的方式来配置ribbon的各项默认参数
+        指定服务配置：
+            <client>.ribbon.key=value, client是在使用@FeignClient(value="HEELO_SERVICE")来创建Feign客户端的时候，同时也创建一个名为HELLO-SERVICE的Ribbon客户端
+     重试机制：
+     
+     Hystrix配置：
+     服务降级配置：
+         实现@FeignClient注解的接口，实现的方法为对应的服务降级逻辑，并在@FeignClient通过fallback指向该class类，具体看service-feign代码
+     其他配置：
+         请求压缩：
+            Spring Cloud Feign支持对请求与响应进行GZIP压缩，以减少通讯过程中的性能损耗
+              #请求与响应压缩
+              feign:
+                  compression:
+                    request:
+                      mime-types: text/xml,application/xml,application/json   #压缩的请求类型
+                      min-request-size: 2048  #请求超过指定大小才压缩
+                      enabled: true
+                    response:
+                      enabled: true
+         日志配置：
+            查阅Spring Cloud官方文档后，需要先配置一个Bean,设定Feign输出的日志内容。
+                @Bean
+                public Logger.Level feignLoggerLevel() {
+                    return feign.Logger.Level.FULL;
+                }
+                
+            Level有好几种，我选择的是FULL。
+            其次，在application.properties中要设定一行这样的代码：
+            logging.level.<你的feign client全路径类名>: DEBUG
+
+     
+     
+     
 路由网关(Zuul):
 
     Zuul的主要功能是路由转发和过滤器，zuul默认和Ribbon结合实现了负载均衡
