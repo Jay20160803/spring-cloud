@@ -1,6 +1,7 @@
 package com.jk51.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.netflix.hystrix.contrib.javanica.command.AsyncResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,9 +31,14 @@ public class HelloService {
 
     /**
      * Hystrix 同步执行服务请求
+     * 设置命令的组名、命令名、线程池名
      *
+     * 属性设置--请求超时时间设置为5秒
      * */
-    @HystrixCommand(fallbackMethod = "hiError")
+    @HystrixCommand(fallbackMethod = "hiError",groupKey = "helloGroup",commandKey = "hi",threadPoolKey = "hiThread",
+        commandProperties = {
+            @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value = "5000")
+        })
     public String hi(String name){
 
         return restTemplate.getForObject("http://service-hi/hi?name="+name,String.class);
@@ -57,6 +63,10 @@ public class HelloService {
     }
 
 
+    /**
+     * Throwable e 触发服务降级的具体异常
+     *
+     * */
     private String hiError(String name,Throwable e){
 
         return "hi,"+name+" sorry,error! cause: "+e.toString();

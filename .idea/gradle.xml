@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/config-server" />
             <option value="$PROJECT_DIR$/eureka-client" />
             <option value="$PROJECT_DIR$/eureka-server" />
+            <option value="$PROJECT_DIR$/hystrix-dashboard" />
             <option value="$PROJECT_DIR$/server-zipin" />
             <option value="$PROJECT_DIR$/service-feign" />
             <option value="$PROJECT_DIR$/service-ribbon" />
