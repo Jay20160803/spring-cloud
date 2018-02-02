@@ -8,12 +8,35 @@ spring:
   application:
     name: service-feign
 
-#feign集成了Hystrix,启用
+#Ribbon设置
+ribbon:   # 设置ribbon 链接超时时间
+  ReadTimeout: 3000
+  ConnectTimeout: 3000
+
+#Hystrix设置
+hystrix:
+  threadpool:
+    "HelloService2#sayHiFromClientOne(String)":  #HystrixCommandKey  设置某个服务实例的Hytrix设置，如果需要设置在所有的实例上都生效（改成"default"）
+      coreSize: 300
+      maxQueueSize: 300
+      queueSizeRejectionThreshold: 300
+  command:
+    "HelloService2#sayHiFromClientOne(String)": #HystrixCommandKey（表示某个实例）
+      execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 3000  #command命令执行超时时间，默认1000ms
+      fallback:
+          isoaltion:
+            semaphore:
+              maxConcurrentRequests: 100   #设置从调用线程中允许fallback方法执行的最大并发数，默认值是10个
+
+#feign设置
 feign:
   hystrix:
     enabled: true
   okhttp:
-    enabled: true  //使用okHttp作为Http请求API
+    enabled: true  #使用okHttp作为Http请求API
     #请求与响应压缩
   compression:
     request:
@@ -24,6 +47,8 @@ feign:
       enabled: true
 
 
+
+
 #开启feign客户端的DEBUG日志
 logging:
   level:
@@ -31,3 +56,4 @@ logging:
       jk51:
         feignInterface:
           HelloService: DEBUG
+          HelloService2: DEBUG

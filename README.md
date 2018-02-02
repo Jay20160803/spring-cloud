@@ -79,7 +79,10 @@
             4.threadPool属性
                 coreSize: 设置执行命令线程池的核心线程数，该值也是命令执行的最大并发量，默认值为10
                 maxQueueSize: 设置线程
-         Hystrix 仪表盘：
+        Hystrix 仪表盘：
+        
+        需要测试下线程隔离:
+           不知道怎么测，用压力测试工具测试是只能保证开启
 
 声明式服务调用：Spring Cloud Feign
                 
@@ -97,6 +100,8 @@
      重试机制：
      
      Hystrix配置：
+        
+        
      服务降级配置：
          实现@FeignClient注解的接口，实现的方法为对应的服务降级逻辑，并在@FeignClient通过fallback指向该class类，具体看service-feign代码
      其他配置：

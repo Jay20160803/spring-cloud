@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76b48bd-7340-47f2-9c36-0bdeeebd3ced" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/modle/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/config/FeignLoggerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceFallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/modle/User.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-feign/build/classes/main/com/jk51/feignInterface/HelloServiceHystrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceHystrix.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-client/build/classes/main/com/jk51/controller/HIController.class" afterPath="$PROJECT_DIR$/eureka-client/build/classes/main/com/jk51/controller/HIController.class" />
+    <list default="true" id="e76b48bd-7340-47f2-9c36-0bdeeebd3ced" name="Default" comment="11">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/EurekaClient2Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/controller/HIController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/modle/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka-client2/src/main/resources/application.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceFallback2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-feign/build/classes/main/com/jk51/controller/HelloController.class" afterPath="$PROJECT_DIR$/service-feign/build/classes/main/com/jk51/controller/HelloController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-feign/build/classes/main/com/jk51/feignInterface/HelloService.class" afterPath="$PROJECT_DIR$/service-feign/build/classes/main/com/jk51/feignInterface/HelloService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/controller/HelloController.java" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService.java" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yaml" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,6 +39,8 @@
     <ignored path="$PROJECT_DIR$/server-zipin/build/" />
     <ignored path="$PROJECT_DIR$/hystrix-dashboard/.gradle/" />
     <ignored path="$PROJECT_DIR$/hystrix-dashboard/build/" />
+    <ignored path="$PROJECT_DIR$/eureka-client2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/eureka-client2/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -497,24 +499,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="933">
-                <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignLoggerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/config/FeignLoggerConfig.java">
+      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="224">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -522,53 +511,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService.java">
+      <file leaf-file-name="HelloService2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignClient.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.4.2.RELEASE/e0b5ce83b667d12e682c28be11d260cc0ecbee4f/spring-cloud-netflix-core-1.4.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/FeignClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="139">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
               <folding>
-                <element signature="e#0#3650#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HIController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/modle/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -577,37 +526,38 @@
       <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="337">
+              <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/modle/User.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client2/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="528">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeignApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/FeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="228">
+              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -616,15 +566,41 @@
       <file leaf-file-name="HelloServiceFallback.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceFallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="247">
+              <caret line="17" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HIController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/controller/HIController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeignLoggerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/config/FeignLoggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -690,6 +666,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":eureka-client" />
                 <option name="path" value="$PROJECT_DIR$/eureka-client" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":eureka-client2" />
+                <option name="path" value="$PROJECT_DIR$/eureka-client2" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":eureka-server" />
@@ -1368,6 +1348,156 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':eureka-client'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/eureka-client2">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':eureka-client2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':eureka-client2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':eureka-client2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':eureka-client2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':eureka-client2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':eureka-client2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':eureka-client2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':eureka-client2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':eureka-client2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':eureka-client2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/eureka-client2" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -2327,7 +2457,7 @@
         <entry key="E:/resource/Spring-framework/spring-beans" value="1506678849406" />
         <entry key="$PROJECT_DIR$/../Spring-boot-shiro-spring-session-redis-example" value="1516431004654" />
         <entry key="$PROJECT_DIR$/../schedule-job" value="3032485463547" />
-        <entry key="$PROJECT_DIR$" value="16687663332609" />
+        <entry key="$PROJECT_DIR$" value="18205165911337" />
         <entry key="$PROJECT_DIR$/../springboot" value="3032886077132" />
         <entry key="F:/demo/jk-schedule" value="2976491166355" />
         <entry key="F:/demo/schedule" value="2979879908940" />
@@ -2419,6 +2549,29 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/eureka-client" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/eureka-client2">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.4.RELEASE/4c67609016a66b7c4f5e99f758db84a8e954381e/spring-boot-gradle-plugin-1.5.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.4.RELEASE/8a89562ac464e37bc6b5a61214125e28b0cdcb76/spring-boot-gradle-plugin-1.5.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/springloaded/1.2.7.RELEASE/befc4d8d917c6e86300648088fcd5e330fb55d10/springloaded-1.2.7.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/springloaded/1.2.7.RELEASE/36be57f1a306cec1185b0276960fbe95dee08bf/springloaded-1.2.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.4.RELEASE/336547a1d63091667b2a3e152de4e5d43e8b5cd6/spring-boot-loader-tools-1.5.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.4.RELEASE/67ba8d60de0aa7633e8b9a50eb11a83d69f944/spring-boot-loader-tools-1.5.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/7bb9ab86474b9ff2e7aa8ea3609878a1750e3f90/dependency-management-plugin-1.0.3.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.9.RELEASE/f85656c1404f6e4fddbc1ca2180748856880913f/spring-core-4.3.9.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.9.RELEASE/430b7298bfb85d66fb61e19ca8f06231b911e9f5/spring-core-4.3.9.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/eureka-client2" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -2783,12 +2936,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/jk51/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/config/RestTemplateConfig.java" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/FeignApplication.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-zuul/build.gradle" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/ZuulApplication.java" />
@@ -2828,12 +2975,18 @@
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/modle/User.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/modle/User.java" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/config/FeignLoggerConfig.java" />
+        <option value="$PROJECT_DIR$/eureka-client2/build.gradle" />
+        <option value="$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/EurekaClient2Application.java" />
+        <option value="$PROJECT_DIR$/eureka-client2/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceHystrix.java" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/config/FeignLoggerConfig.java" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService2.java" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceFallback2.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/controller/HIController.java" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yaml" />
       </list>
     </option>
   </component>
@@ -2869,6 +3022,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2957,33 +3112,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.4.RELEASE" />
+              <option name="myItemId" value="Gradle: com.squareup.okio:okio:1.6.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-autoconfigure-1.5.4.RELEASE.jar" />
+              <option name="myItemId" value="okio-1.6.0.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="autoconfigure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.4.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-autoconfigure-1.5.4.RELEASE.jar" />
+              <option name="myItemId" value="okio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2997,8 +3134,188 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.15" />
+              <option name="myItemId" value="Gradle: com.squareup.okio:okio:1.6.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okio-1.6.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.squareup.okhttp3:okhttp:3.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttp-3.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttp3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.squareup.okhttp3:okhttp:3.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttp-3.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttp3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="internal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.squareup.okhttp3:okhttp:3.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttp-3.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttp3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="internal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle: com.squareup.okhttp3:okhttp:3.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttp-3.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3078,40 +3395,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jk51" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jk51" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3227,7 +3510,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server-zipin" />
+              <option name="myItemId" value="eureka-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3241,7 +3524,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eureka-client" />
+              <option name="myItemId" value="eureka-client2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3255,29 +3538,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eureka-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eureka-client" />
+              <option name="myItemId" value="eureka-client2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3289,11 +3550,7 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jk51" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3307,7 +3564,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eureka-client" />
+              <option name="myItemId" value="eureka-client2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3326,10 +3583,6 @@
               <option name="myItemId" value="jk51" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3341,7 +3594,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eureka-client" />
+              <option name="myItemId" value="eureka-client2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3365,10 +3618,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eureka-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3385,6 +3650,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\spring-cloud\eureka-client2" />
       <recent name="E:\workspace\spring-cloud\service-zuul\src\main\resources" />
     </key>
   </component>
@@ -3915,6 +4181,14 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="eureka-client-2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jk51.EurekaClient2Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="eureka-client2_main" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="service-zuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jk51.ZuulApplication" />
@@ -3948,21 +4222,22 @@
       <envs />
       <method />
     </configuration>
-    <list size="14">
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.eureka-server" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.eureka-client" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.HystrixDashboard" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.service-ribbon" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.service-feign" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.service-zuul" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.config-server" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.config-client" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.zipinSercer" />
-      <item index="9" class="java.lang.String" itemvalue="Gradle.spring-cloud:service-ribbon [bootRepackage]" />
-      <item index="10" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [buildDocker]" />
-      <item index="11" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [clean]" />
-      <item index="12" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [bootRepackage]" />
-      <item index="13" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [:eureka-server:buildDocker]" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.eureka-client-2" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.service-zuul" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.config-server" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.config-client" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.zipinSercer" />
+      <item index="10" class="java.lang.String" itemvalue="Gradle.spring-cloud:service-ribbon [bootRepackage]" />
+      <item index="11" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [buildDocker]" />
+      <item index="12" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [clean]" />
+      <item index="13" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [bootRepackage]" />
+      <item index="14" class="java.lang.String" itemvalue="Gradle.spring-cloud:eureka-server [:eureka-server:buildDocker]" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -3997,7 +4272,8 @@
       <workItem from="1517189764287" duration="2851000" />
       <workItem from="1517275331143" duration="12989000" />
       <workItem from="1517375860974" duration="19011000" />
-      <workItem from="1517449322781" duration="17507000" />
+      <workItem from="1517449322781" duration="20987000" />
+      <workItem from="1517552798304" duration="13297000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1516691200674</created>
@@ -4062,11 +4338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517465713491</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="11">
+      <created>1517476727767</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1517476727767</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94727000" />
+    <option name="totallyTimeSpent" value="111504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="0" />
@@ -4086,7 +4369,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43879667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38278008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4094,10 +4377,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15456432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15456432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36780384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4140,7 +4423,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="21" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -4170,121 +4453,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.4/ba6f1b4f499af79d40755d91fc343226c331e61d/ribbon-loadbalancer-2.2.4-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.4/ba6f1b4f499af79d40755d91fc343226c331e61d/ribbon-loadbalancer-2.2.4-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="112" column="35" lean-forward="false" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.4/ba6f1b4f499af79d40755d91fc343226c331e61d/ribbon-loadbalancer-2.2.4-sources.jar!/com/netflix/loadbalancer/ZoneAvoidanceRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.4/ba6f1b4f499af79d40755d91fc343226c331e61d/ribbon-loadbalancer-2.2.4-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="590" column="0" lean-forward="false" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.4/ba6f1b4f499af79d40755d91fc343226c331e61d/ribbon-loadbalancer-2.2.4-sources.jar!/com/netflix/loadbalancer/PredicateBasedRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.4/ba6f1b4f499af79d40755d91fc343226c331e61d/ribbon-loadbalancer-2.2.4-sources.jar!/com/netflix/loadbalancer/AbstractServerPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.4/ba6f1b4f499af79d40755d91fc343226c331e61d/ribbon-loadbalancer-2.2.4-sources.jar!/com/netflix/loadbalancer/LoadBalancerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="606" column="0" lean-forward="false" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.3.1.RELEASE/e6bc4292bf8d32e289be620358b96aa077b19570/spring-cloud-commons-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceRequestWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.3.1.RELEASE/e6bc4292bf8d32e289be620358b96aa077b19570/spring-cloud-commons-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerRequestFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.3.1.RELEASE/e6bc4292bf8d32e289be620358b96aa077b19570/spring-cloud-commons-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/http/client/InterceptingClientHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/http/client/AbstractBufferingClientHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/http/client/AbstractClientHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding>
-            <element signature="e#31441#31452#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.4.2.RELEASE/e0b5ce83b667d12e682c28be11d260cc0ecbee4f/spring-cloud-netflix-core-1.4.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1045">
-          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.4.2.RELEASE/e0b5ce83b667d12e682c28be11d260cc0ecbee4f/spring-cloud-netflix-core-1.4.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.4.3/2669bdd17a034063cee8ea5d9e1a0752696fd1b5/hystrix-core-1.4.3-sources.jar!/com/netflix/hystrix/HystrixCommandGroupKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -4332,18 +4500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
           <caret line="171" column="31" lean-forward="false" selection-start-line="171" selection-start-column="27" selection-end-line="171" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="class#Factory#0;class#HystrixCircuitBreaker#0" expanded="false" />
-            <element signature="e#5266#5267#0" expanded="false" />
-            <element signature="e#5322#5323#0" expanded="false" />
-            <element signature="class#NoOpCircuitBreaker#0;class#HystrixCircuitBreaker#0" expanded="false" />
-            <element signature="e#10559#10560#0" expanded="false" />
-            <element signature="e#10594#10595#0" expanded="false" />
-            <element signature="e#10647#10648#0" expanded="false" />
-            <element signature="e#10683#10684#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4351,98 +4507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30761">
           <caret line="1711" column="129" lean-forward="false" selection-start-line="1711" selection-start-column="11" selection-end-line="1711" selection-end-column="129" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#16707#16708#0" expanded="false" />
-            <element signature="e#16771#16772#0" expanded="false" />
-            <element signature="e#57273#57274#0" expanded="false" />
-            <element signature="e#57301#57302#0" expanded="false" />
-            <element signature="e#59085#59086#0" expanded="false" />
-            <element signature="e#59193#59194#0" expanded="false" />
-            <element signature="e#64842#64843#0" expanded="false" />
-            <element signature="e#64877#64878#0" expanded="false" />
-            <element signature="e#65066#65067#0" expanded="false" />
-            <element signature="e#65099#65100#0" expanded="false" />
-            <element signature="e#65388#65389#0" expanded="false" />
-            <element signature="e#65424#65425#0" expanded="false" />
-            <element signature="e#65486#65487#0" expanded="false" />
-            <element signature="e#65523#65524#0" expanded="false" />
-            <element signature="e#65728#65729#0" expanded="false" />
-            <element signature="e#65758#65759#0" expanded="false" />
-            <element signature="e#65976#65977#0" expanded="false" />
-            <element signature="e#66009#66010#0" expanded="false" />
-            <element signature="e#66606#66607#0" expanded="false" />
-            <element signature="e#66644#66645#0" expanded="false" />
-            <element signature="e#67841#67842#0" expanded="false" />
-            <element signature="e#67879#67880#0" expanded="false" />
-            <element signature="e#69148#69149#0" expanded="false" />
-            <element signature="e#69186#69187#0" expanded="false" />
-            <element signature="e#69410#69411#0" expanded="false" />
-            <element signature="e#69474#69475#0" expanded="false" />
-            <element signature="e#70776#70777#0" expanded="false" />
-            <element signature="e#70814#70815#0" expanded="false" />
-            <element signature="e#71038#71039#0" expanded="false" />
-            <element signature="e#71102#71103#0" expanded="false" />
-            <element signature="e#77579#77580#0" expanded="false" />
-            <element signature="e#77626#77627#0" expanded="false" />
-            <element signature="e#77691#77692#0" expanded="false" />
-            <element signature="e#77733#77734#0" expanded="false" />
-            <element signature="e#77963#77964#0" expanded="false" />
-            <element signature="e#77998#77999#0" expanded="false" />
-            <element signature="e#78125#78126#0" expanded="false" />
-            <element signature="e#78157#78158#0" expanded="false" />
-            <element signature="e#79889#79890#0" expanded="false" />
-            <element signature="e#79916#79917#0" expanded="false" />
-            <element signature="e#79957#79958#0" expanded="false" />
-            <element signature="e#79993#79994#0" expanded="false" />
-            <element signature="e#80176#80177#0" expanded="false" />
-            <element signature="e#80221#80222#0" expanded="false" />
-            <element signature="e#81225#81226#0" expanded="false" />
-            <element signature="e#81291#81292#0" expanded="false" />
-            <element signature="e#81705#81706#0" expanded="false" />
-            <element signature="e#81767#81768#0" expanded="false" />
-            <element signature="e#82729#82730#0" expanded="false" />
-            <element signature="e#82782#82783#0" expanded="false" />
-            <element signature="e#84769#84770#0" expanded="false" />
-            <element signature="e#84811#84812#0" expanded="false" />
-            <element signature="e#85003#85004#0" expanded="false" />
-            <element signature="e#85074#85075#0" expanded="false" />
-            <element signature="e#85268#85269#0" expanded="false" />
-            <element signature="e#85340#85341#0" expanded="false" />
-            <element signature="e#85546#85547#0" expanded="false" />
-            <element signature="e#85608#85609#0" expanded="false" />
-            <element signature="e#85921#85922#0" expanded="false" />
-            <element signature="e#85979#85980#0" expanded="false" />
-            <element signature="e#86689#86690#0" expanded="false" />
-            <element signature="e#86779#86780#0" expanded="false" />
-            <element signature="e#87187#87188#0" expanded="false" />
-            <element signature="e#87282#87283#0" expanded="false" />
-            <element signature="e#87359#87360#0" expanded="false" />
-            <element signature="e#87415#87416#0" expanded="false" />
-            <element signature="e#87600#87601#0" expanded="false" />
-            <element signature="e#87663#87664#0" expanded="false" />
-            <element signature="e#87899#87900#0" expanded="false" />
-            <element signature="e#87969#87970#0" expanded="false" />
-            <element signature="e#88042#88043#0" expanded="false" />
-            <element signature="e#88100#88101#0" expanded="false" />
-            <element signature="e#88740#88741#0" expanded="false" />
-            <element signature="e#88784#88785#0" expanded="false" />
-            <element signature="e#89039#89040#0" expanded="false" />
-            <element signature="e#89096#89097#0" expanded="false" />
-            <element signature="e#90253#90254#0" expanded="false" />
-            <element signature="e#90311#90312#0" expanded="false" />
-            <element signature="e#91908#91909#0" expanded="false" />
-            <element signature="e#91971#91972#0" expanded="false" />
-            <element signature="e#93653#93654#0" expanded="false" />
-            <element signature="e#93708#93709#0" expanded="false" />
-            <element signature="e#95338#95339#0" expanded="false" />
-            <element signature="e#95399#95400#0" expanded="false" />
-            <element signature="e#96338#96339#0" expanded="false" />
-            <element signature="e#96396#96397#0" expanded="false" />
-            <element signature="e#96492#96493#0" expanded="false" />
-            <element signature="e#96553#96554#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4493,17 +4557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/filter/HystrixRequestContextServletFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4519,7 +4572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4527,7 +4579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4536,7 +4587,7 @@
         <state relative-caret-position="285">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4545,7 +4596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="28" column="110" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4553,7 +4603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="32" column="110" lean-forward="false" selection-start-line="32" selection-start-column="110" selection-end-line="32" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4565,38 +4614,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/hystrixCommand/HiCommand.java">
+    <entry file="file://$PROJECT_DIR$/service-feign/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="496">
+          <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/service/HelloService.java">
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/modle/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="37" column="114" lean-forward="false" selection-start-line="37" selection-start-column="106" selection-end-line="37" selection-end-column="114" />
+        <state relative-caret-position="323">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/modle/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#305#306#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/filter/HystrixRequestContextServletFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="28" column="82" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/build.gradle">
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/hystrixCommand/HiCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="59" />
+        <state relative-caret-position="447">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/jk51/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="114" lean-forward="false" selection-start-line="37" selection-start-column="106" selection-end-line="37" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/modle/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/EurekaClient2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client2/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceFallback2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/fb6ec0fbaa0229088b0d3dfe3b1f9d24add3e775/okio-1.6.0-sources.jar!/okio/Timeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="142" column="28" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/fb6ec0fbaa0229088b0d3dfe3b1f9d24add3e775/okio-1.6.0-sources.jar!/okio/AsyncTimeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/fb6ec0fbaa0229088b0d3dfe3b1f9d24add3e775/okio-1.6.0-sources.jar!/okio/RealBufferedSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3743">
+          <caret line="220" column="31" lean-forward="false" selection-start-line="220" selection-start-column="25" selection-end-line="220" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/c6e2cb305d0da8820c335f20db73bfc69b2156ed/okhttp-3.2.0-sources.jar!/okhttp3/internal/http/Http1xStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/c6e2cb305d0da8820c335f20db73bfc69b2156ed/okhttp-3.2.0-sources.jar!/okhttp3/internal/http/HttpEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/fb6ec0fbaa0229088b0d3dfe3b1f9d24add3e775/okio-1.6.0-sources.jar!/okio/Okio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="474">
+            <caret line="84" column="34" lean-forward="false" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.4.2.RELEASE/e0b5ce83b667d12e682c28be11d260cc0ecbee4f/spring-cloud-netflix-core-1.4.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/FeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#3650#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -4609,115 +4835,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.4.2.RELEASE/e0b5ce83b667d12e682c28be11d260cc0ecbee4f/spring-cloud-netflix-core-1.4.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/FeignClient.java">
+    <entry file="file://$PROJECT_DIR$/eureka-client2/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#3650#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/modle/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/modle/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="528">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloServiceFallback.java">
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="139">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/feignInterface/HelloService.java">
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/config/FeignLoggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="414">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/controller/HelloController.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="284" column="52" lean-forward="true" selection-start-line="284" selection-start-column="7" selection-end-line="284" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client2/src/main/java/com/jk51/controller/HIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="228">
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/jk51/config/FeignLoggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="933">
-            <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

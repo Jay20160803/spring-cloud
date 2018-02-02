@@ -6,6 +6,8 @@
       <module name="config-client_test" target="1.8" />
       <module name="config-server_main" target="1.8" />
       <module name="config-server_test" target="1.8" />
+      <module name="eureka-client2_main" target="1.8" />
+      <module name="eureka-client2_test" target="1.8" />
       <module name="eureka-client_main" target="1.8" />
       <module name="eureka-client_test" target="1.8" />
       <module name="eureka-server_main" target="1.8" />

@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_main.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server_test.iml" group="config-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client.iml" group="eureka-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client2/eureka-client2.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client2/eureka-client2.iml" group="eureka-client2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client2/eureka-client2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client2/eureka-client2_main.iml" group="eureka-client2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client2/eureka-client2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client2/eureka-client2_test.iml" group="eureka-client2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_main.iml" group="eureka-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client/eureka-client_test.iml" group="eureka-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" group="eureka-server" />
