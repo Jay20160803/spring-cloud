@@ -99,8 +99,10 @@
             <client>.ribbon.key=value, client是在使用@FeignClient(value="HEELO_SERVICE")来创建Feign客户端的时候，同时也创建一个名为HELLO-SERVICE的Ribbon客户端
      重试机制：
      
+     Ribbon设置：
+        看实例
      Hystrix配置：
-        
+        看实例
         
      服务降级配置：
          实现@FeignClient注解的接口，实现的方法为对应的服务降级逻辑，并在@FeignClient通过fallback指向该class类，具体看service-feign代码
