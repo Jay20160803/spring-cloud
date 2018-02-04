@@ -10,8 +10,8 @@ spring:
 
 #Ribbon设置
 ribbon:   # 设置ribbon 链接超时时间
-  ReadTimeout: 3000
-  ConnectTimeout: 3000
+  ReadTimeout: 3000     #请求的超时时间
+  ConnectTimeout: 3000  #创建请求连接的超时时间
 
 #Hystrix设置
 hystrix:

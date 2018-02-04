@@ -2,6 +2,8 @@ package com.jk51.feignInterface;
 
 
 import com.jk51.modle.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -17,8 +19,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Component
 public class HelloServiceFallback implements HelloService {
 
+    private Logger logger = LoggerFactory.getLogger(HelloServiceFallback.class);
+
     @Override
     public String sayHiFromClientOne(String name) {
+
+        logger.error("记录请求fall到日志");
+
         return "hi,"+name+" sorry,error!";
     }
 

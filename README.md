@@ -134,6 +134,59 @@
      
 路由网关(Zuul):
 
+    在使用微服务的时候，微服务的实例会不断的变化，按以往通过修改nginx的conf文件来实现微服务实例的变化会越来越难，所以我们需要一套机制来有效降低
+    维护路由规则与服务实例聊表的难度----通过面向服务的路由配置方式，我们不需要再为各个路由维护服务应用的具体实例的位置，而是通过简单的path与serviceId的映射组合，使得维护工作变得非常简单。
+    这完全归功于Spring Cloud Eureka的服务发现机制，它使得API网关服务可以自动化完成服务实例清单的维护，完美的解决了对路由映射实例的维护问题
+    
+    
+    其次，我们需要保证对外服务的安全性，我们在服务端实现的微服务接口，往往都会有一定的权限校验机制，比如对用户登录状态的校验，权限校验，由于使用微服务
+    架构的理念，我们将原本处于一个应用中的多个模块拆成了多个应用，但是这些应用提供的接口都需要这些校验逻辑。我么也需要一套机制能够很好地解决微服务架构中，
+    对于微服务接口访问时各前置校验的冗余问题
+    
+    为类解决以上问题，API网关的概念应运而生，它的定义类似于面向对象设计模式中的外观模式
+    实现的功能：
+        调度
+        过滤
+        请求路由、负载均衡   依赖ribbon实现
+        校验过滤
+        与服务治理框架的结合
+        请求转发时的熔断机制  依赖Hystrix实现
+        服务的聚合
+        
+    
+    服务过滤：继承ZuulFilter类
+    
+    路由详解：
+        服务路由的默认规则：
+            当我们为Zuul构建的API网关服务引入Eureka之后，它为Eureka中的每个服务都自动创建一个默认的路由规则，这个默认规则
+            的path会使用serviceId配置的服务名作为前缀（/routes断点来返回当前的所有路由规则）
+            我们可以使用zuul.ignored.services参数来设置一个服务名匹配表达式来定义不自动创建路由的规则（设置看applicaiton.yaml）
+        自定义路径映射的规则：
+        路径匹配：
+            多个路径都匹配是，zuul选择配置文件中第一个匹配的路径
+        忽略表达式：
+        本地跳转：
+        Cookie与头信息：
+            zuul在请求路由时，会过滤掉HTTP请求头信息中的一些敏感信息，默认过滤设置（zuul.sensitiveHeader=Cookie、Set-Cookie、Authorization）,
+            如果我们使用Spring Security、Shiro等安全框架构建Web应用，由于cookie无法传递，我们将无法实现登录和鉴权，解决方案：
+                ＃方法一：对指定路由开启自定义敏感头
+                zuul.routes.<router>.customSensitiveHeaders=true
+                ＃方法二：将指定路由的敏感头设置为空
+                zuul.routes.<router>.sensitiveHeaders=
+                
+                试了下方法一没起作用，方法二可以
+         重定向问题：
+            服务在跳转到URL的时候，跳转到的是服务注册到Eureka中的实例地址，不是通过网关获取到的路由地址，解决方案：
+                zuul.addHostHeader=true
+            
+         Hystrix和Ribbon支持：
+            
+            zuul包含了对hystrix,ribbon的依赖，所以zuul天生具有线程隔离和断路器的保护，以及对服务调用的客户端负载均衡。但是需要注意的是
+            当使用path与url的映射关系来配置路由规则时，对于路由转发的请求不会采用HystrixCommand来包装，所以这类路由请求没有线程隔离和
+            断路器的保护，并且也不会有负载均衡的能力，因此我们在使用zuul的时候尽量使用path和serviceId的组合来进行配置
+            我们可以通过设置hytrix和ribbon的参数来调整路配置
+         过滤器详解：
+            
     Zuul的主要功能是路由转发和过滤器，zuul默认和Ribbon结合实现了负载均衡
     zuul有以下功能：
     Authentication
@@ -147,7 +200,7 @@
     Static Response handling
     Active/Active traffic management
     
-    服务过滤：继承ZuulFilter类
+  
     
 分布配置中心（Spring cloud config）
 

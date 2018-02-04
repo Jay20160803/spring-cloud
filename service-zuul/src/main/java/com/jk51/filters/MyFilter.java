@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
  * 创建日期: 2018-01-23
  * 修改记录:
  */
-@Component
+/*@Component
 public class MyFilter extends ZuulFilter {
 
     private Logger logger = LoggerFactory.getLogger(MyFilter.class);
@@ -60,4 +60,4 @@ public class MyFilter extends ZuulFilter {
         logger.info("ok");
         return null;
     }
-}
+}*/

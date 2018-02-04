@@ -10,7 +10,9 @@ spring:
   application:
     name: service-zuul
 
+#路由规则设定
 zuul:
+  ignoredServices: '*'    #zuul不自动创建路由的规则
   routes:
     api-a:
       path: /api-a/**
@@ -18,10 +20,32 @@ zuul:
     api-b:
       path: /api-b/**
       serviceId: service-feign
+    spring-boot:
+      path: /spring-boot/**
+      serviceId: spring-boot
+    spring-boot1:
+      path: /**
+      serviceId: spring-boot
+      sensitiveHeaders:      #解决zull滤掉HTTP中cookie、Set-Cookie、Authorization信息，造成安全框架登录和鉴权不起作用的问题
+  add-host-header: true  #解决服务跳转URL时不是通过网关获取的路由地址
+
+
 
 #配置日志
 logging:
   config : classpath:logback-boot.xml
+
+
+#spring-boot-starter-actuator中的权限账户
+security:
+  user:
+    name: admin
+    password: 123456
+management:
+  security:
+    enabled: false
+    role: admin
+
 
 
 

@@ -7,3 +7,23 @@ server:
 spring:
   application:
     name: service-ribbon
+
+
+ribbon:
+   ReadTimeout: 3000
+   ConnectTimeout: 3000
+
+
+#Hystrix设置
+hystrix:
+  threadpool:
+    defult:  #HystrixCommandKey  设置某个服务实例的Hytrix设置，如果需要设置在所有的实例上都生效（改成"default"）
+      coreSize: 30
+      maxQueueSize: 30
+      queueSizeRejectionThreshold: 30
+  command:
+    defult": #HystrixCommandKey（表示某个实例）
+      execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 3000
