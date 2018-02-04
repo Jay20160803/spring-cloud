@@ -185,8 +185,35 @@
             当使用path与url的映射关系来配置路由规则时，对于路由转发的请求不会采用HystrixCommand来包装，所以这类路由请求没有线程隔离和
             断路器的保护，并且也不会有负载均衡的能力，因此我们在使用zuul的时候尽量使用path和serviceId的组合来进行配置
             我们可以通过设置hytrix和ribbon的参数来调整路配置
+            
          过滤器详解：
             
+           zull包含了对请求的路由和过滤两个功能，其中路由功能负责将外部请求转发到具体的微服务实例上，是实现外部访问统一路口的基础；而过滤器则负责对请求的处理过程进行
+           干预，是实现请求校验、服务聚合等功能的基础。然而实际上，路由功能在真正运行时，它的路由映射和请求转发都是由几个不同的过滤器完成的。其中，路由映射主要通过pre
+           类型的过滤器完成，它将请求路劲与配置的路由规则进行匹配，以找到需要转发的目标地址；而请求转发的部分则是由rote类型的过滤器完成，对pre类型获得的路由地址进行转发。
+           所以，过滤器可以说是zuul实现API网关功能最为核心的部件
+         
+            filterType: pre(请求路由之前调用)、routing(在路由请求时被调用)、post(在routing和error过滤器之后被调用)、error(处理请求时发生错误时被调用)
+            
+            核心过滤器：
+                为了让API网关组件可以被更方便地使用，zull在HTTP请求生命周期的各个阶段默认实现了一批核心过滤器，他们会在API网关服务启动的时候被
+                自动加载和启用
+                
+            异常处理与异常指定格式返回：
+                详细看ZuulFilterConfig
+            禁用过滤器：
+                zuul.<SimpleClassName>.<filterType>.disable=true
+                
+         动态加载： 
+               动态路由:
+                    1.zuul服务配置连接spring cloud config
+                    2.配置ZuulPropertiesConfig
+                    3.修改spring cloud config 的配置提交后，使用post类型访问zuul服务的 /refresh 刷新配置
+                    注意事项：
+                        1.git中的配置文件中如果配置了不存在的服务，调用zull的 /routes和 /refresh都会报错
+                        2.zuul的applicaiton.name 需要与配置文件同名，可指定profile
+                        
+                    
     Zuul的主要功能是路由转发和过滤器，zuul默认和Ribbon结合实现了负载均衡
     zuul有以下功能：
     Authentication

@@ -6,17 +6,17 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import javax.servlet.http.HttpServletRequest;
+
 
 
 /**
  * 版权所有(C) 2017 上海银路投资管理有限公司
- * 描述:
+ * 描述: 模拟zuul filter 报错
  * 作者: gaojie
  * 创建日期: 2018-01-23
  * 修改记录:
  */
-/*@Component
+@Component
 public class MyFilter extends ZuulFilter {
 
     private Logger logger = LoggerFactory.getLogger(MyFilter.class);
@@ -39,7 +39,7 @@ public class MyFilter extends ZuulFilter {
     @Override
     public Object run() {
 
-        RequestContext context = RequestContext.getCurrentContext();
+       /* RequestContext context = RequestContext.getCurrentContext();
         HttpServletRequest request = context.getRequest();
 
         logger.info("{}>>>>>>>>>>>{}",request.getMethod(),request.getRequestURL().toString());
@@ -58,6 +58,17 @@ public class MyFilter extends ZuulFilter {
         }
 
         logger.info("ok");
+        return null;*/
+
+        //dosomeThing();
+
+
         return null;
     }
-}*/
+
+    private void dosomeThing(){
+        throw new RuntimeException("Exist some errors..");
+    }
+
+
+}

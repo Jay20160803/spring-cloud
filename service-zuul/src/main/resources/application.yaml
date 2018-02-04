@@ -8,27 +8,36 @@ server:
 
 spring:
   application:
-    name: service-zuul
-
+    name: api-geteway
+  cloud:    #读取spring cloud config 服务器中的配置信息
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+      discovery:
+        enabled: true
+        service-id: config-server
 #路由规则设定
-zuul:
-  ignoredServices: '*'    #zuul不自动创建路由的规则
-  routes:
-    api-a:
-      path: /api-a/**
-      serviceId: service-ribbon
-    api-b:
-      path: /api-b/**
-      serviceId: service-feign
-    spring-boot:
-      path: /spring-boot/**
-      serviceId: spring-boot
-    spring-boot1:
-      path: /**
-      serviceId: spring-boot
-      sensitiveHeaders:      #解决zull滤掉HTTP中cookie、Set-Cookie、Authorization信息，造成安全框架登录和鉴权不起作用的问题
-  add-host-header: true  #解决服务跳转URL时不是通过网关获取的路由地址
-
+#zuul:
+#  ignoredServices: '*'    #zuul不自动创建路由的规则
+#  routes:
+#    api-a:
+#      path: /api-a/**
+#      serviceId: service-ribbon
+#    api-b:
+#      path: /api-b/**
+#      serviceId: service-feign
+#    spring-boot:
+#      path: /spring-boot/**
+#      serviceId: spring-boot
+#    spring-boot1:
+#      path: /**
+#      serviceId: spring-boot
+#      sensitiveHeaders:      #解决zull滤掉HTTP中cookie、Set-Cookie、Authorization信息，造成安全框架登录和鉴权不起作用的问题
+#  add-host-header: true  #解决服务跳转URL时不是通过网关获取的路由地址
+ # SendErrorFilter:
+  #   post:
+  #     disable: true   #禁用默认的SendErrorFilter
 
 
 #配置日志
@@ -45,6 +54,7 @@ management:
   security:
     enabled: false
     role: admin
+
 
 
 
