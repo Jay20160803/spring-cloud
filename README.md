@@ -235,12 +235,43 @@
 分布配置中心（Spring cloud config）
 
     在分布式系统中，由于服务数量巨多，为了方便服务配置文件统一管理，实时更新，所以需要分布式配置中心组件。在Spring Cloud中，有分布式配置中心组件spring cloud config ，它支持配置服务放在配置服务的内存中（即本地），也支持放在远程Git仓库中。在spring cloud config 组件中，分两个角色，一是config server，二是config client。
-    
-    config server: 供有需要的服务读出git中的配置文件信息
-    
+    config server: 供有需要的服务读出git中的配置文件信息 
     config client：任何服务都可以作为config client，使其能想读本地的配置文件一样读取分布配置中心（git）的配置信息
 
+    当无法从github clone配置信息到本地时，会记录一下日志 “Could not fetch remote for master remote: https://github.com/Jay20160803/spring-cloud-config.git”
+    但config-server会返回git在本地存储的配置信息
 
+    Config Server巧妙地通过git clone将配置信息存于本地， 起到了缓存的作用， 即使当Git服务端无法访问的时候， 依然可以取ConfigServer中的缓存内容进行使用。
+    
+    服务端详解：
+        Git配置仓库：
+            占位符配置URI：
+                我们可以通过{application}占位符来实现一个Git仓库目录的配置效果,{application}代表应用的名字，所以客户端应用
+                向Config server发起获取配置请求的时，Config server会根据客户端的spring.application.name信息来填充{application}占位符以定位配置资源位置，从而
+                实现根据微服务应用的属性动态获取不同位置的配置
+                spring.cloud.config.server.git.uri=http://git.oschina.net/didispace/{application}
+            配置多个仓库：
+        属性覆盖：
+        安全保护：(测试没能成功)
+            使用spring-security，在服务中引入secrity start依赖，在配置文件中设置用户名和密码，客户端在链接配置中心时需要配置对用的安全信息
+            security.user.name=user
+            security.user.password=123456
+        加密解密：
+        高可用：
+            将Config server当服务启动多个节点，使用Feign实现负载均衡调用，细节查看客户端详解
+    
+    客户端详解：
+        URI指定配置中心：
+            SpringC loudC onfig的客户端在启动的时候，默认会从工程的classpath中加载配置信
+            息并启动应用。只有当我们配置spring.cloud.config.uri 的时候， 客户端应用才会
+            尝试连接SpringCloud Config的服务端来获取远程配置信息并初始化Spring环境配置
+         服务化配置中心：
+             将config server注册到服务注册中心后，为config client添加注册发现，在配置中做以下配置不需要在配置config server的URI
+             spring.cloud.config.discovery.enabled=true
+             spring.cloud.config.discovery.serviceid=config-server
+             spring.cloud.config.profile=dev
+         
+             
 消息总线（Spring Cloud Bus）：
     
     Spring Cloud Bus 将分布式的节点用轻量的消息代理连接起来。它可以用于广播配置文件的更改或者服务之间的通讯，也可以用于监控。本文要讲述的是用Spring Cloud Bus实现通知微服务架构的配置文件的更改。

@@ -5,10 +5,12 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:8888/
+      #uri: http://localhost:8888/  在使用服务化配置中心时不需要配置config server的URI
       discovery:
         enabled: true
         service-id: config-server
+      #username: user   #config server srcurity账户密码
+      #password: 37cc5635-559b-4e6f-b633-7e932b813f73
 server:
   port: 8881
 
@@ -16,3 +18,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+
+
+
