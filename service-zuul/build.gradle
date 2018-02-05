@@ -35,5 +35,6 @@ dependencies {
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zuul', version: '1.4.2.RELEASE'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '1.5.10.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '1.4.1.RELEASE'
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '3.0.0-alpha-1'
 
 }

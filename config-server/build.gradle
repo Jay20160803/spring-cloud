@@ -32,6 +32,7 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.4.2.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server', version: '1.4.1.RELEASE'
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '3.0.0-alpha-1'
 
 
 }

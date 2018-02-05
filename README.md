@@ -212,7 +212,10 @@
                     注意事项：
                         1.git中的配置文件中如果配置了不存在的服务，调用zull的 /routes和 /refresh都会报错
                         2.zuul的applicaiton.name 需要与配置文件同名，可指定profile
-                        
+               动态过滤器：
+                     通过动态语言实现
+                     
+                     
                     
     Zuul的主要功能是路由转发和过滤器，zuul默认和Ribbon结合实现了负载均衡
     zuul有以下功能：
