@@ -10,6 +10,14 @@ spring:
           username:             #访问Git仓库的用户名
           password:             #访问Git仓库的用户密码
       label: master             #git项目分支
+    bus:
+      trace:
+        enabled: true   #开启消息跟踪
+  rabbitmq:  #spring cloud bus rabbitmq 配置
+    host: localhost
+    port: 5672
+    username: test
+    password: 123456
 
 server:
  port: 8888
@@ -25,5 +33,11 @@ eureka:
  # user:
  #   name: user
  #   password: 37cc5635-559b-4e6f-b633-7e932b813f73
+
+
+#关闭安全验证
+management:
+  security:
+    enabled: false
 
 

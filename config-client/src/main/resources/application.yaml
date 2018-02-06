@@ -9,8 +9,15 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
-      #username: user   #config server srcurity账户密码
-      #password: 37cc5635-559b-4e6f-b633-7e932b813f73
+    bus:
+      trace:
+        enabled: true   #开启消息跟踪
+  rabbitmq:  #spring cloud bus rabbitmq 配置
+    host: localhost
+    port: 5672
+    username: test
+    password: 123456
+
 server:
   port: 8881
 
@@ -19,6 +26,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-
-
+#关闭安全验证
+management:
+  security:
+    enabled: false
 

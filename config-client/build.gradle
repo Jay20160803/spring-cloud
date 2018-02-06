@@ -32,6 +32,8 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '1.4.1.RELEASE'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.4.2.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '1.5.10.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-bus-amqp', version: '1.3.2.RELEASE'
 
 
 }

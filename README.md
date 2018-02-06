@@ -276,6 +276,13 @@
     
     Spring Cloud Bus 将分布式的节点用轻量的消息代理连接起来。它可以用于广播配置文件的更改或者服务之间的通讯，也可以用于监控。本文要讲述的是用Spring Cloud Bus实现通知微服务架构的配置文件的更改。
     
+    添加消息总线（整合RabbitMq）:
+        1-3客户端服务端中都需要配置
+        1.在配置文件中配置RabbitMq的地址，账户密码
+        2.引入Spring cloud Bus 响应的包
+        3.开启消息跟踪
+        4.客户端main class 添加注解 @RefreshScope
+        
 服务链路追踪（Spring cloud Sleuth）:
     
     Spring Cloud Sleuth 主要功能就是在分布式系统中提供追踪解决方案，并且兼容支持了 zipkin，你只需要在pom文件中引入相应的依赖即可
