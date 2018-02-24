@@ -7,11 +7,21 @@ server:
 spring:
   application:
     name: service-ribbon
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true   #开启Ribbon重试机制----还需要导入spring-retry包
+
+service-hi:
+  ribbon:
+     ReadTimeout: 1000
+     ConnectTimeout: 250
+     OkToRetryOnAllOperations: true  #对所有操作请求都进行重试
+     MaxAutoRetriesNextServer: 2     #切换实例的重试次数
+     MaxAutoRetrie: 1                #对当前实例的重试次数
 
 
-ribbon:
-   ReadTimeout: 3000
-   ConnectTimeout: 3000
+
 
 
 #Hystrix设置
@@ -22,7 +32,7 @@ hystrix:
       maxQueueSize: 30
       queueSizeRejectionThreshold: 30
   command:
-    defult": #HystrixCommandKey（表示某个实例）
+    defult: #HystrixCommandKey（表示某个实例）
       execution:
           isolation:
             thread:

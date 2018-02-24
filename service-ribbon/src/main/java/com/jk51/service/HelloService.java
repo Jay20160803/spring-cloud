@@ -4,6 +4,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.netflix.hystrix.contrib.javanica.command.AsyncResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -37,11 +38,18 @@ public class HelloService {
      * */
     @HystrixCommand(fallbackMethod = "hiError",groupKey = "helloGroup",commandKey = "hi",threadPoolKey = "hiThread",
         commandProperties = {
-            @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value = "5000")
+            @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value = "10000")
         })
     public String hi(String name){
 
-        return restTemplate.getForObject("http://service-hi/hi?name="+name,String.class);
+        return restTemplate.getForObject("http://service-hi/hi?name="+name,String.class);   //getForObject
+
+
+/*
+        ResponseEntity<String> res =  restTemplate.getForEntity("http://service-hi/hi?name="+name,String.class);
+        res.getStatusCode();
+        res.getHeaders();
+        return res.getBody();*/
     }
 
 

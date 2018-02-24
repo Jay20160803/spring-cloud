@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: true   #优先使用IP地址作为主机名的标识
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: false  #是否向注册中心注册自己，由于该服务为注册中心，所以设置为false
+    fetchRegistry: false      #由于注册中心的职责就是维护服务实例，它并不需要去检索服务，所以设置为false

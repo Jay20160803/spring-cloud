@@ -22,11 +22,11 @@ public class HIController {
 
 
         //throw new NullPointerException("服务端发生异常");
-        try {
+       /* try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
         return "hi "+name+" ,i am from port: "+port;
     }
 

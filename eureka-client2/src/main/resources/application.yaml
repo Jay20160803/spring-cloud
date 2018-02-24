@@ -7,4 +7,4 @@ server:
   port: 8799
 spring:
   application:
-    name: service-hi-2
+    name: service-hi
