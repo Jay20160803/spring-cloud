@@ -1,42 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e76b48bd-7340-47f2-9c36-0bdeeebd3ced" name="Default" comment="spring cloud Ribbon 重试机制">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_annotations_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_turbine_turbine_core_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_1_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_1_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_core_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_turbine_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_1_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_turbine_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_turbine_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/turbine/turbine.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/turbine/turbine_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/turbine/turbine_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/controller/ErrorHandlerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/controller/ZuulController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/turbine/src/main/java/TurbineApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/turbine/src/main/resources/application.yaml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/config/ZuulFilterConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/ErrorFilter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-client/build/classes/main/com/jk51/controller/HIController.class" afterPath="$PROJECT_DIR$/eureka-client/build/classes/main/com/jk51/controller/HIController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="e76b48bd-7340-47f2-9c36-0bdeeebd3ced" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/jk51/controller/HIController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/MyFilter.java" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/MyFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yaml" afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -191,13 +159,13 @@
       <file leaf-file-name="MyFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/MyFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="344">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="e#495#496#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -279,8 +247,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="206" column="45" lean-forward="true" selection-start-line="206" selection-start-column="45" selection-end-line="206" selection-end-column="45" />
+              <first_editor relative-caret-position="247">
+                <caret line="208" column="40" lean-forward="true" selection-start-line="208" selection-start-column="40" selection-end-line="208" selection-end-column="40" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -2854,8 +2822,8 @@
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/ErrorFilter.java" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/config/ZuulFilterConfig.java" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/controller/ZuulController.java" />
-        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/MyFilter.java" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/controller/ErrorHandlerController.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/MyFilter.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -4298,7 +4266,7 @@
       <workItem from="1519435711633" duration="10605000" />
       <workItem from="1519524626109" duration="11292000" />
       <workItem from="1519608542775" duration="19476000" />
-      <workItem from="1519694628649" duration="5432000" />
+      <workItem from="1519694628649" duration="5734000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1516691200674</created>
@@ -4426,11 +4394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519457704619</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="spring cloud zuul 异常处理">
+      <created>1519700523761</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1519700523761</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221239000" />
+    <option name="totallyTimeSpent" value="221541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1923" y="0" width="1936" height="1096" extended-state="0" />
@@ -4450,7 +4425,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42634854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4346473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4527,7 +4502,8 @@
     <MESSAGE value="spring cloud config" />
     <MESSAGE value="spring cloud bus" />
     <MESSAGE value="spring cloud Ribbon 重试机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring cloud Ribbon 重试机制" />
+    <MESSAGE value="spring cloud zuul 异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring cloud zuul 异常处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4711,6 +4687,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4911,19 +4888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/MyFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1537#1538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/config/ZuulFilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-188">
@@ -4958,11 +4922,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/jk51/filters/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="206" column="45" lean-forward="true" selection-start-line="206" selection-start-column="45" selection-end-line="206" selection-end-column="45" />
+          <first_editor relative-caret-position="247">
+            <caret line="208" column="40" lean-forward="true" selection-start-line="208" selection-start-column="40" selection-end-line="208" selection-end-column="40" />
             <folding />
           </first_editor>
           <second_editor />

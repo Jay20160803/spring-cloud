@@ -202,9 +202,14 @@
                 自动加载和启用
                 
             异常处理与异常指定格式返回：
+            
+                Error类型的过滤器处理完毕后，除了来自post阶段的异常之外，都会被post过滤进行处理
+                
+                自定义异常处理（微服务实战和网上的一些资料提供的是旧版本zuul的解决方案，测试了下新版zuul的异常处理过滤器是够用的，在需要自定义异常信息和返回的数据格式时我们可以做响应的重写，比自定义异常处理过滤器更简单，也更全面（ps:自定义异常过器时很容易遇到第一点的问题））
                 依然使用SendErrorFilter异常过滤器
                 自定义异常信息：重写DefaultErrorAttributes中getErrorAttributes方法的返回
-                自定义异常的返回数据格式：重写ErrorControlle
+                自定义异常的返回数据格式：重写ErrorController
+
             禁用过滤器：
                 zuul.<SimpleClassName>.<filterType>.disable=true
                 
