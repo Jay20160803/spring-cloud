@@ -60,7 +60,7 @@ public class MyFilter extends ZuulFilter {
         logger.info("ok");
         return null;*/
 
-        //dosomeThing();
+        dosomeThing();
 
 
         return null;

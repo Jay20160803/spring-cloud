@@ -35,9 +35,8 @@ spring:
 #      serviceId: spring-boot
 #      sensitiveHeaders:      #解决zull滤掉HTTP中cookie、Set-Cookie、Authorization信息，造成安全框架登录和鉴权不起作用的问题
 #  add-host-header: true  #解决服务跳转URL时不是通过网关获取的路由地址
- # SendErrorFilter:
-  #   post:
-  #     disable: true   #禁用默认的SendErrorFilter
+
+
 
 
 #配置日志

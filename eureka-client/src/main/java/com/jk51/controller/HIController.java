@@ -21,9 +21,9 @@ public class HIController {
     public String home(@RequestParam String name){
 
 
-        //throw new NullPointerException("服务端发生异常");
+        throw new NullPointerException("服务端发生异常");
 
-        return "hi "+name+" ,i am from port: "+port;
+        //return "hi "+name+" ,i am from port: "+port;
     }
 
     @RequestMapping(value = "hi2",method = RequestMethod.GET)

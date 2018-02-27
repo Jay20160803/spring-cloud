@@ -35,6 +35,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud_main.iml" group="spring-cloud" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud_test.iml" group="spring-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turbine/turbine.iml" filepath="$PROJECT_DIR$/.idea/modules/turbine/turbine.iml" group="turbine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turbine/turbine_main.iml" filepath="$PROJECT_DIR$/.idea/modules/turbine/turbine_main.iml" group="turbine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turbine/turbine_test.iml" filepath="$PROJECT_DIR$/.idea/modules/turbine/turbine_test.iml" group="turbine" />
     </modules>
   </component>
 </project>

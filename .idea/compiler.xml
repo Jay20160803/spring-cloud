@@ -24,6 +24,8 @@
       <module name="service-zuul_test" target="1.8" />
       <module name="spring-cloud_main" target="1.5" />
       <module name="spring-cloud_test" target="1.5" />
+      <module name="turbine_main" target="1.8" />
+      <module name="turbine_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

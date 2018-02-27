@@ -98,7 +98,9 @@
         指定服务配置：
             <client>.ribbon.key=value, client是在使用@FeignClient(value="HEELO_SERVICE")来创建Feign客户端的时候，同时也创建一个名为HELLO-SERVICE的Ribbon客户端
      重试机制：
-     
+        1.开启重试，并配置对应的参数
+        2.导入Retry包
+        详细查询Ribbon代码
      Ribbon设置：
         看实例
      Hystrix配置：
@@ -200,7 +202,9 @@
                 自动加载和启用
                 
             异常处理与异常指定格式返回：
-                详细看ZuulFilterConfig
+                依然使用SendErrorFilter异常过滤器
+                自定义异常信息：重写DefaultErrorAttributes中getErrorAttributes方法的返回
+                自定义异常的返回数据格式：重写ErrorControlle
             禁用过滤器：
                 zuul.<SimpleClassName>.<filterType>.disable=true
                 
