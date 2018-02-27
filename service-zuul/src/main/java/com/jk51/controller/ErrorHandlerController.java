@@ -20,8 +20,11 @@ import java.util.Map;
  * 修改记录:
  */
 
+
 @RestController
 public class ErrorHandlerController implements ErrorController {
+
+
 
     @Override
     public String getErrorPath() {
@@ -31,9 +34,23 @@ public class ErrorHandlerController implements ErrorController {
     @RequestMapping("/error")
     public Object error(HttpServletRequest request){
 
-        RequestContext ctx = RequestContext.getCurrentContext();
-        ZuulException exception = findZuulException(ctx.getThrowable());
         Map<String,Object> result = new HashMap<>();
+        RequestContext ctx = RequestContext.getCurrentContext();
+        if(ctx.size()==0){
+
+            if(request.getAttribute("javax.servlet.error.status_code").toString().equals("404")){
+                result.put("status",404);
+                result.put("message","Not Found");
+            }else{
+
+                result.put("status",500);
+                result.put("message","unkonwn zuul exception!");
+            }
+
+            return result;
+        }
+        ZuulException exception = findZuulException(ctx.getThrowable());
+
         result.put("status",exception.nStatusCode);
         result.putIfAbsent("message",exception.errorCause);
         return result;
