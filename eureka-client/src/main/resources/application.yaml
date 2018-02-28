@@ -12,6 +12,12 @@ server:
 spring:
   application:
     name: service-hi    #服务名称，
+  #整合zipkin
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+      sampler:
+        percentage: 1  #抽样收集，在测试的时候100%收集
 management:
   security:
     enabled: false

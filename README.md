@@ -298,9 +298,36 @@
     其他消息代理的支持:
         Bus的消息通讯基础实际上都是由Spring Cloud Stream所提供的。一定程度上，我们可以将Spring Cloud Bus理解为是一个使用了spring cloud stream构建的上层应用。所以当我们要在其他消息代理上使用Spring cloud Bus消息总线时，只需要去实现一套指定消息代理的绑定器即可
 
-
+    
+    
         
 服务链路追踪（Spring cloud Sleuth）:
+    
+    微服务中的全链路调用的跟踪很重要，通过实现对请求调用的跟踪可以帮助我们快速发现错误根源以及监控分析每条请求链路上的性能瓶颈
+    只需要在微服务中导入Spring cloud Sleuth包就能在日志中记录请求链路信息，可读性太差
+    
+    抽样收集：日志信息收集多少的策略
+        默认情况下，Sleuth会使用PercentageBasedSampler实现的抽样策略，已请求百分比的方式配置和收集跟踪信息。我们可以通过在配置文件中
+        对其百分比值进行设置，它的默认值为0.1，代表收集10%的请求跟踪信息
+        
+        ps:在测试的情况下设置为1 spring.sleuth.sampler.percentage=1
+    
+    与Zipkin整合：
+        搭建Zipkin Server:
+            创建spring boot 项目，引入zipkin-server、zipkin-autoconfigure-ui 包，并在main 方法类上添加注解@EnableZipkinServer
+        为应用引入和配置Zipkin服务：    以实现将跟踪信息输出到Zipkin Server
+             1.引入spring-cloud-starter-zipkin jar包
+             2.设置抽样收集为100%收集（在测试的情况下）
+    
+    消息中间键收集：
+        实现异步收集
+    
+    数据存储：
+        永久存储
+    
+    API接口：
+    
+    
     
     Spring Cloud Sleuth 主要功能就是在分布式系统中提供追踪解决方案，并且兼容支持了 zipkin，你只需要在pom文件中引入相应的依赖即可
  

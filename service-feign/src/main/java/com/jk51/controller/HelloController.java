@@ -3,11 +3,14 @@ package com.jk51.controller;
 import com.jk51.feignInterface.HelloService;
 import com.jk51.feignInterface.HelloService2;
 import com.jk51.modle.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
 
 /**
  * 版权所有(C) 2017 上海银路投资管理有限公司
@@ -20,6 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    private Logger logger = LoggerFactory.getLogger(HelloService.class);
+
     @Autowired
     private HelloService helloService;
     @Autowired
@@ -29,6 +34,7 @@ public class HelloController {
     @RequestMapping(value = "hi",method = RequestMethod.GET)
     public String hi(@RequestParam String name){
 
+        logger.info(" call trace 1");
         return helloService.sayHiFromClientOne(name);
     }
 

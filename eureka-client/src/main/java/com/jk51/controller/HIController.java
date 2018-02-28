@@ -1,6 +1,8 @@
 package com.jk51.controller;
 
 import com.jk51.modle.User;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,6 +16,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class HIController {
 
+    private Logger logger = LoggerFactory.getLogger(HIController.class);
+
     @Value("${server.port}")
     private String port;
 
@@ -21,9 +25,9 @@ public class HIController {
     public String home(@RequestParam String name){
 
 
-        throw new NullPointerException("服务端发生异常");
-
-        //return "hi "+name+" ,i am from port: "+port;
+        //throw new NullPointerException("服务端发生异常");
+        logger.info("call trace 2");
+        return "hi "+name+" ,i am from port: "+port;
     }
 
     @RequestMapping(value = "hi2",method = RequestMethod.GET)
