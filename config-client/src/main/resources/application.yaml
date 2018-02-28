@@ -3,8 +3,8 @@ spring:
     name: config-client
   cloud:
     config:
-      label: master
       profile: dev
+      label: master
       #uri: http://localhost:8888/  在使用服务化配置中心时不需要配置config server的URI
       discovery:
         enabled: true

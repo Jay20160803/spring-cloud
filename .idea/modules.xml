@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-client/config-client.iml" filepath="$PROJECT_DIR$/.idea/modules/config-client/config-client.iml" group="config-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-client2/config-client2.iml" filepath="$PROJECT_DIR$/.idea/modules/config-client2/config-client2.iml" group="config-client2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-client/config-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-client/config-client_main.iml" group="config-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-client/config-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-client/config-client_test.iml" group="config-client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/config-server.iml" group="config-server" />

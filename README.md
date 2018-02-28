@@ -279,7 +279,9 @@
              spring.cloud.config.discovery.enabled=true
              spring.cloud.config.discovery.serviceid=config-server
              spring.cloud.config.profile=dev
-         
+    动态刷新：
+           注意：@RefreshScope需要标记在对应的变量类上
+
              
 消息总线（Spring Cloud Bus）：
     
@@ -288,9 +290,15 @@
     添加消息总线（整合RabbitMq）:
         1-3客户端服务端中都需要配置
         1.在配置文件中配置RabbitMq的地址，账户密码
-        2.引入Spring cloud Bus 响应的包
+        2.引入spring-cloud-starter-bus-ampq的包
         3.开启消息跟踪
-        4.客户端main class 添加注解 @RefreshScope
+        4.客户端在对应的变量类上添加@RefreshScope
+        5.通过向服务端发送/bus/refresh 刷新所有连接rabbitMq客户端的配置信息
+        
+    其他消息代理的支持:
+        Bus的消息通讯基础实际上都是由Spring Cloud Stream所提供的。一定程度上，我们可以将Spring Cloud Bus理解为是一个使用了spring cloud stream构建的上层应用。所以当我们要在其他消息代理上使用Spring cloud Bus消息总线时，只需要去实现一套指定消息代理的绑定器即可
+
+
         
 服务链路追踪（Spring cloud Sleuth）:
     

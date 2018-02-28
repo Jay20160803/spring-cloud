@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 修改记录:
  */
 @RestController
+@RefreshScope
 public class ConfigClientController {
 
     @Value("${foo}")
