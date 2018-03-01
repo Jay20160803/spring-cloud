@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/service-feign" />
             <option value="$PROJECT_DIR$/service-ribbon" />
             <option value="$PROJECT_DIR$/service-zuul" />
+            <option value="$PROJECT_DIR$/stream-hello" />
             <option value="$PROJECT_DIR$/turbine" />
           </set>
         </option>

@@ -11,4 +11,5 @@ include 'hystrix-dashboard'
 include 'eureka-client2'
 include 'turbine'
 include 'config-client2'
+include 'stream-hello'
 

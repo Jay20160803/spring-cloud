@@ -298,7 +298,10 @@
     其他消息代理的支持:
         Bus的消息通讯基础实际上都是由Spring Cloud Stream所提供的。一定程度上，我们可以将Spring Cloud Bus理解为是一个使用了spring cloud stream构建的上层应用。所以当我们要在其他消息代理上使用Spring cloud Bus消息总线时，只需要去实现一套指定消息代理的绑定器即可
 
+消息驱动的微服务：Spring Cloud Stream
     
+    构建一个Spring Cloud Stream消费者：
+        
     
         
 服务链路追踪（Spring cloud Sleuth）:
